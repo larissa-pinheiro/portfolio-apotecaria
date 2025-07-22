@@ -1,4 +1,4 @@
-# 🌿 Portfólio Maomao
+# 🌿 Portfólio Apotecaria
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-🌿_Maomao-3CB371?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge" />
   <img src="https://img.shields.io/badge/CSS3-Estilo_Delicado-FFC0CB?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge" />
@@ -6,7 +6,7 @@
 </div>  
   
 
-Bem-vindo ao projeto do **Portfólio Maomao**, uma página fictícia criada para apresentar a personagem Maomao com um toque narrativo e visual encantador. Este projeto foi desenvolvido com HTML, CSS e JavaScript puros, com foco em estruturação semântica e organização do conteúdo.
+Bem-vindo ao projeto do **Portfólio Apotecaria**, uma página fictícia criada para apresentar a personagem Maomao com um toque narrativo e visual encantador. Este projeto foi desenvolvido com HTML, CSS e JavaScript puros, com foco em estruturação semântica e organização do conteúdo.
 
 ## ✨ Sobre o Projeto
 
@@ -15,6 +15,7 @@ Este portfólio é uma homenagem à personagem de anime Maomao, com base em seu 
 ## 🔗 Páginas
 
 - **`index.html`** – Página principal com apresentação da Maomao, imagem de perfil, resumo da biografia e vídeo favorito.
+- **`sobre-mim.html`** – Página com a história da Maomao, dividida em duas seções, com imagens ilustrativas em um tom leve e divertido.
 - **`contato.html`** – Página de contato com formulário funcional (sem backend) e mapa interativo com localização fictícia em Suzhou, China.
 
 ## 👩🏻‍💻 Tecnologias Utilizadas
@@ -29,13 +30,20 @@ Este portfólio é uma homenagem à personagem de anime Maomao, com base em seu 
 ## 📂 Estrutura do Projeto  
 
 ```
-maomao-portfolio/
-│
+📁 portfolio-apotecaria/
 ├── index.html
+├── sobre-mim.html
 ├── contato.html
 ├── assets/
-│ └── img/
-│ └── favicon.ico
+│ 📁 css/  
+│  └── global.css
+│  └── index.css
+│  └── sobre.css
+│  └── contato.css
+│ 📁 img/ 
+│  └── favicon.ico
+│ 📁 js/
+│  └── contato.js
 ```
 ## Executando Localmente  
 Para visualizar o projeto localmente, siga as instruções abaixo:  
