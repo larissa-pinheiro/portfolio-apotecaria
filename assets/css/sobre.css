@@ -1,6 +1,7 @@
 :root {
   --primary-color: #d47e73c0;
   --secondary-color: #8eb87dff;
+  --title-color: #bb5c50b6;
   --text-color: #373b2fff;
 }
 
@@ -144,8 +145,7 @@ header {
 }
 
 .bio-text h2 {
-  font-size: 2em;
-  color: var(--primary-color);
+  color: var(--title-color);
   text-align: center;
 }
 
