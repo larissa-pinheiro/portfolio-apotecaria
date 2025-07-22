@@ -319,6 +319,7 @@ footer {
     background-size: 100% 52%, 100% 50%;
     background-position: top left, bottom right;
     background-blend-mode: multiply;
+    z-index: 0;
   }
 
   #contact-content h2 {
@@ -358,6 +359,7 @@ footer {
     background-size: 100% 52%, 100% 50%;
     background-position: top left, bottom right;
     background-blend-mode: multiply;
+    z-index: 0;
   }
 
   #nav-list {
@@ -421,5 +423,6 @@ footer {
     background-size: 50% 100%, 50% 100%;
     background-position: top left, bottom right;
     background-blend-mode: multiply;
+    z-index: 0;
   }
 }
