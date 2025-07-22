@@ -7,7 +7,15 @@
   <meta name="description" content="Portfolio Maomao">
   <meta name="author" content="Larissa Pinheiro">
   <meta name="keywords" content="HTML, CSS, JavaScript">
+
   <link rel="icon" type="image/ico" href="assets/img/favicon.ico" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&&family=Winky+Rough&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/index.css">
   <title>Meu Perfil</title>
 </head>
 
@@ -19,9 +27,12 @@
       </div>
 
       <nav id="header-nav">
-        <ul>
+        <ul id="nav-list">
           <li>
             <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="sobre-mim.html">Sobre Mim</a>
           </li>
           <li>
             <a href="contato.html">Contato</a>
@@ -33,24 +44,27 @@
 
   <main>
     <section id="summary">
-      <h2>Olá! Meu nome é Maomao</h2>
+      <img src="https://ik.imagekit.io/larissa/Maomao/bg-extended.png?updatedAt=1753137223361"
+        alt="Banner Perfil Maomao" height="400" width="1080" id="banner-image">
 
       <div id="summary-content">
-        <img
-          src="https://ik.imagekit.io/larissa/Maomao/c9d8155deab96ed36d8e87da68b47d56%20(1).jpg?updatedAt=1752797333579"
-          alt="Foto de Perfil Maomao" width="1080" id="profile-image">
-
         <article id="summary-text">
+          <h2>Olá! Meu nome é Maomao</h2>
+
           <p>
             Fui criada por meu pai, um renomado apotecário que me ensinou desde cedo os segredos das ervas medicinais,
             venenos e curas. Cresci em um ambiente repleto de fórmulas, experimentos e livros antigos. Um dia, acabei
             sendo levada para o Palácio Interno, onde comecei a trabalhar como serviçal. Mas minha curiosidade e meu
             conhecimento logo me colocaram em situações… inesperadas.
           </p>
+
+          <p id="summary-call-to-action">
+            Quer saber mais sobre mim? <a href="sobre-mim.html" class="call-to-action">Conheça minha história.</a>
+          </p>
         </article>
 
         <img src="https://ik.imagekit.io/larissa/Maomao/maomao4.png?updatedAt=1752861815189" width="400"
-          alt="Foto Maomao">
+          id="summary-image" alt="Foto Maomao">
       </div>
     </section>
 
@@ -58,7 +72,7 @@
       <h2>Meu vídeo favorito:</h2>
 
       <div id="video-content">
-        <iframe width="800" height="450"
+        <iframe width="100%" height="100%"
           src="https://www.youtube.com/embed/sYC5BfJy2nw?si=cfVie4P_VNtVqZa_&cc_load_policy=1&cc_lang_pref=pt&hl=pt"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -82,7 +96,7 @@
     </section>
 
     <h3>
-      Feito com 💚 por Larissa Pinheiro
+      Feito com 💚 por Larissa Pinheiro @ 2025
     </h3>
   </footer>
 </body>
