@@ -197,6 +197,10 @@ footer {
     background-blend-mode: multiply;
     z-index: 0;
   }
+
+  #banner-image {
+    z-index: 1;
+  }
 }
 
 @media (max-width: 768px) {
