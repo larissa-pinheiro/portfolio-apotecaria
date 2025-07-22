@@ -100,6 +100,7 @@ main {
 }
 
 #banner-image {
+  position: relative;
   z-index: 1;
 }
 
