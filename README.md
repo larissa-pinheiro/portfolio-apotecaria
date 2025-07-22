@@ -71,7 +71,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 ## Deploy  
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:  
-- [Portfólio Pessoal](https://larissa-pinheiro.github.io/portfolio-maomao)  
+- [Portfólio Pessoal](https://larissa-pinheiro.github.io/portfolio-apotecaria)  
 
 ## Contribuindo  
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.  
