@@ -225,6 +225,7 @@ footer {
     width: 100%;
     min-width: 300px;
     height: auto;
+    z-index: 1;
   }
 
   #summary-call-to-action {
@@ -235,6 +236,7 @@ footer {
   #summary-image {
     width: 100%;
     max-width: 300px;
+    z-index: 1;
   }
 
   #video {
