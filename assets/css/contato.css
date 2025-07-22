@@ -43,7 +43,7 @@ header {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-#header-nav ul {
+#nav-list {
   font-family: 'Winky Rough', cursive;
   display: flex;
   align-items: center;
@@ -53,25 +53,28 @@ header {
   font-weight: 600;
   font-size: 1.5em;
   list-style: none;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
 }
 
-#header-nav ul li {
+#nav-list li {
   position: relative;
 }
 
-#header-nav ul li:hover {
+#nav-list li:hover {
   filter: brightness(1.2);
 }
 
-#header-nav ul li a {
+#nav-list li a {
   transition: color 0.3s ease;
 }
 
-#header-nav ul li:hover a {
+#nav-list li:hover a {
   color: #6f995d;
 }
 
-#header-nav ul li::after {
+#nav-list li::after {
   content: "";
   position: absolute;
   left: 0;
@@ -84,7 +87,7 @@ header {
   transition: transform 0.4s ease-in-out;
 }
 
-#header-nav ul li:hover::after {
+#nav-list li:hover::after {
   transform: scaleX(1);
 }
 
@@ -308,12 +311,56 @@ footer {
   border-radius: 8px;
 }
 
-@media (max-width: 768px) {
-  #header-title {
-    font-size: 2.5em;
+@media (max-width: 480px) {
+  body::before {
+    background-image: 
+    url('https://ik.imagekit.io/larissa/Maomao/32mobile.jpg'),
+    url('https://ik.imagekit.io/larissa/Maomao/bgmaomao.jpg?updatedAt=1753203805893');
+    background-size: 100% 52%, 100% 50%;
+    background-position: top left, bottom right;
+    background-blend-mode: multiply;
   }
 
-  #header-nav ul {
+  #contact-content h2 {
+    font-size: 1.5em;
+  }
+
+  #contact-content p {
+    font-size: 0.95em;
+  }
+
+  #contact-image img {
+    max-width: 200px;
+  }
+
+  #formulario,
+  #mapa {
+    padding: 20px 15px;
+  }
+
+  #formulario input,
+  #formulario textarea {
+    padding: 10px 12px;
+  }
+
+  #formulario button {
+    padding: 12px 24px;
+    font-size: 1em;
+  }
+
+  #mapa iframe {
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  body::before {
+    background-size: 100% 52%, 100% 50%;
+    background-position: top left, bottom right;
+    background-blend-mode: multiply;
+  }
+
+  #nav-list {
     font-size: 1.2em;
     gap: 1rem;
   }
@@ -369,39 +416,10 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
-  #header-title {
-    font-size: 2em;
-  }
-
-  #contact-content h2 {
-    font-size: 1.5em;
-  }
-
-  #contact-content p {
-    font-size: 0.95em;
-  }
-
-  #contact-image img {
-    max-width: 200px;
-  }
-
-  #formulario,
-  #mapa {
-    padding: 20px 15px;
-  }
-
-  #formulario input,
-  #formulario textarea {
-    padding: 10px 12px;
-  }
-
-  #formulario button {
-    padding: 12px 24px;
-    font-size: 1em;
-  }
-
-  #mapa iframe {
-    height: 180px;
+@media (min-width: 769px){
+  body::before {
+    background-size: 50% 100%, 50% 100%;
+    background-position: top left, bottom right;
+    background-blend-mode: multiply;
   }
 }
