@@ -128,6 +128,11 @@ main {
   line-height: 1.6;
 }
 
+#summary-image {
+  position: relative;
+  z-index: 1;
+}
+
 .call-to-action {
   color: var(--secondary-color);
   font-weight: 600;
