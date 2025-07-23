@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const charCounter = document.getElementById('char-counter');
 
   const maxLength = 500;
-  const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2, 3})+$/;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   function updateCharCount() {
     const currentLength = campoMessage.value.length;
